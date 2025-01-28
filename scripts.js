@@ -1,5 +1,5 @@
 // O console.log exibe no console um texto.
-console.log("Andre")
+// console.log("Andre")
 
 /*
 Cometário de múltiplas linhas.
@@ -14,3 +14,14 @@ Porque utilizar comentários durante seus estudos:
 - Relembrar no futuro o que aquilo faz;
 - Etc...
 */
+// --------------------------------------------------------------
+
+// Sintaxe correta.
+console.log("Olá, André!")
+
+// Sintaxe incorreta.
+// con.sole.log("Ola, André!")
+
+// No JavaScript ponto e vírgula é opcional.
+console.log("Olá, João!");
+console.log("Olá, João!")
