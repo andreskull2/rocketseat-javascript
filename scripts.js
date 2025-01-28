@@ -55,8 +55,23 @@ letras maiúsculas e minúsculas.
 Por exemplo: "André" é considerado diferente de "andré".
 */
 
-var product = "Teclado Mecânico"
-var Product = "Mouse Gamer"
+// var product = "Teclado Mecânico"
+// var Product = "Mouse Gamer"
 
-console.log(product)
-console.log(Product)
+// console.log(product)
+// console.log(Product)
+
+// ---------------------------------------------------------
+
+// Variáveis e constantes - Let
+
+// Declara uma variável sem valor.
+let user
+console.log("André Martins")
+
+// Declara uma variável com valor.
+let email = "andre@email.com"
+console.log(email)
+
+email = "joao@email.com"
+console.log(email)
