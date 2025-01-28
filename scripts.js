@@ -17,11 +17,28 @@ Porque utilizar comentários durante seus estudos:
 // --------------------------------------------------------------
 
 // Sintaxe correta.
-console.log("Olá, André!")
+// console.log("Olá, André!")
 
 // Sintaxe incorreta.
 // con.sole.log("Ola, André!")
 
 // No JavaScript ponto e vírgula é opcional.
-console.log("Olá, João!");
-console.log("Olá, João!")
+// console.log("Olá, João!");
+// console.log("Olá, João!")
+
+// ------------------------------------------------------------------
+
+// Variáveis e Constantes - Var
+
+// Declara uma variável sem valor.
+var user
+
+console.log(user)
+
+// Declara uma variável com valor
+var email = "andre@email.com"
+console.log(email)
+
+// Substitui o valor da variável.
+email = "joao@email.com"
+console.log(email)
