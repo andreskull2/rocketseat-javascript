@@ -31,14 +31,32 @@ Porque utilizar comentários durante seus estudos:
 // Variáveis e Constantes - Var
 
 // Declara uma variável sem valor.
-var user
+// var user
 
-console.log(user)
+// console.log(user)
 
 // Declara uma variável com valor
-var email = "andre@email.com"
-console.log(email)
+// var email = "andre@email.com"
+// console.log(email)
 
 // Substitui o valor da variável.
-email = "joao@email.com"
-console.log(email)
+// email = "joao@email.com"
+// console.log(email)
+
+// -----------------------------------------------------------
+
+// Variáveis e Constantes - Case Sensitive
+
+/* 
+Quando uma linguagem de programação é
+case-sensitive significa que ela é sensível a 
+letras maiúsculas e minúsculas.
+
+Por exemplo: "André" é considerado diferente de "andré".
+*/
+
+var product = "Teclado Mecânico"
+var Product = "Mouse Gamer"
+
+console.log(product)
+console.log(Product)
