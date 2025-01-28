@@ -66,12 +66,25 @@ Por exemplo: "André" é considerado diferente de "andré".
 // Variáveis e constantes - Let
 
 // Declara uma variável sem valor.
-let user
-console.log("André Martins")
+// let user
+// console.log("André Martins")
 
 // Declara uma variável com valor.
-let email = "andre@email.com"
-console.log(email)
+// let email = "andre@email.com"
+// console.log(email)
 
-email = "joao@email.com"
-console.log(email)
+// email = "joao@email.com"
+// console.log(email)
+
+// -----------------------------------------------------------
+
+// Variáveis e constantes - Const
+
+// Uma constante cria uma variável cujo valor é fixo (não pode ser alterado)
+const number = 42
+console.log(number)
+
+// Irá gerar um erro porque o valor não pode ser alterado.
+number = 55
+console.log(number)
+
