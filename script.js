@@ -92,3 +92,38 @@ Por exemplo: "André" é considerado diferente de "andré".
 
 // Variáveis e constantes - Compreendendo escopos
 
+// -------------------------------------------------------------
+
+// Variáveis e constantes - Hoisting
+
+// --------------------------------------------------------
+
+// Variáveis e constantes - Scope 
+
+// console.log(user)
+// var user = "André"
+
+// Hoisting
+// var user
+
+// console.log(user)
+
+// Escopo global
+var email = "joao@email.com"
+
+{
+    // Escopo de bloco
+    console.log(email)
+}
+
+{
+    var age = 18
+}
+
+console.log(age)
+
+let address = "Rua X"
+
+{
+    console.log(address)
+}
